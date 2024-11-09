@@ -2,7 +2,8 @@ import { IoIosCloseCircle } from "react-icons/io";
 import { ChatData } from "../context/ChatContext";
 import { MdDelete } from "react-icons/md";
 import { LoadingSpinner } from "./Loading";
-import { UserData } from "../context/userContext";
+import { UserData } from "../context/UserContext";
+
 
 const Sidebar = ({isOpen, toggleSidebar}) => {
 
