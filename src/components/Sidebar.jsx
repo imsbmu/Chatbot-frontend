@@ -16,7 +16,7 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
             deleteChat(id);
         }
     };
-
+//clickevent
     const clickEvent=(id)=>{
         setSelected(id);
         toggleSidebar();
